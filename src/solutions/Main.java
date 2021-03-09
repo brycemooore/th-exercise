@@ -1,13 +1,6 @@
-
+package solutions;
 
 public class Main {
-
-    public static void main(String[] args) {
-        String s = "MyString";
-        int[] nums = new int[]{5, 8, 3, 45, 1} ;
-        System.out.println(printNumsAboveAndBelow(nums, 4));
-        System.out.println(rotateString(s, 2));
-    }
 
     /* #1 Print the number of integers in an array that are above the given input
     and the number that are below, e.g. for the array [1, 5, 2, 1, 10] with input 6,
@@ -52,9 +45,9 @@ public class Main {
     /*Ruby on Rails is a very powerful and easy to start web framework, but it is very strict in it's conventions.
     This is can be awesome as it helps assert industry conventions and makes learning things like MVC much easier in my opinion.
     The problem with Rails is it is not very lightweight and comes with a lot of hassle to install and use. Even when given options like
-    the API only flag, it is still a large project with a hard workflow to look into. After using Express and seeing how moldable and lightweight
-    it is, I wish Rails had some options for setting up a project like that. Rails is a fast framework and Ruby is a great language with
-    awesome tool and easy to read syntax. If the Rails was a little more customizable, I think it would be used by many more people and keep
+    the API only flag, it is still a large project with a hard workflow to look into. After using Express and Flask and seeing how moldable and lightweight
+    they are, I wish Rails had some options for setting up a project like that. Rails is a fast framework and Ruby is a great language with
+    awesome tools and easy to read syntax. If the Rails was a little more customizable, I think it would be used by many more people and keep
     up in this time of Node dominance.*/
 
-} //end Main Class
+} //end solutions.Main Class

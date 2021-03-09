@@ -14,5 +14,8 @@ class MainTest {
 
     @Test
     void rotateString() {
+        String testString = "MyString";
+        int numToRotate = 2;
+        assertEquals("ngMyStri", Main.rotateString(testString, numToRotate));
     }
 }
